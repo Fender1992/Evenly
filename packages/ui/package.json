@@ -1,0 +1,18 @@
+{
+  "name": "@evenly/ui",
+  "version": "0.1.0",
+  "private": true,
+  "main": "index.tsx",
+  "scripts": {
+    "typecheck": "tsc --noEmit",
+    "lint": "eslint ."
+  },
+  "peerDependencies": {
+    "react": "*",
+    "react-native": "*"
+  },
+  "devDependencies": {
+    "@types/react": "^18.2.48",
+    "typescript": "^5.3.3"
+  }
+}

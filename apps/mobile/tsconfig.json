@@ -1,0 +1,14 @@
+{
+  "extends": "../../packages/config/tsconfig.base.json",
+  "compilerOptions": {
+    "jsx": "react-native",
+    "baseUrl": ".",
+    "paths": {
+      "@mobile/*": ["./*"],
+      "@evenly/split-engine": ["../../packages/split-engine/src"],
+      "@evenly/ui": ["../../packages/ui"]
+    }
+  },
+  "include": ["./**/*"],
+  "exclude": ["node_modules"]
+}
